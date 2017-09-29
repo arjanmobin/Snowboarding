@@ -1,2 +1,78 @@
-/* CSS Document */
+body{
+	background-color: #323231;
+	
+}
+
+html{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+}
+
+
+#logo{
+	padding-left: 3px;
+	padding-bottom: 3px;
+	width: 100px;
+	float: left;
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	background: #0B3954;
+	padding-right: 10px;
+	z-index: 10;
+	
+}
+
+h1{
+	float: left;
+	padding-left: 20%;
+	font-size: 32px;
+	color: white;
+	padding-bottom: 5px;
+}
+
+
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+li{
+	display: inline;
+	padding-right: 50px;
+	padding-top: 30px;
+	float: right;
+}
+
+
+.header_links a{
+	color: #BFD7EA;
+	font-size: 20px;
+}
+
+.header_links a:hover{
+	color: red;
+}
+
+.content{
+	padding-top: 115px;
+	background-color: #323231;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+form{
+	padding-top: 20px;
+	
+}
+
+label{
+	padding: 1%;
+	
+}
 

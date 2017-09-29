@@ -106,13 +106,21 @@ footer{
 
 #gallery-text{
 	background: #760806;
+	position:relative;
+	color:whitesmoke;
+
+	top:20%;
+	font-size: 250%;
 	text-align: center;
-	color:#99D4E3;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
 }
 
-img.gallery{
-	overflow: auto;
-	width: 18.8%;
+
+
+.five{
+	display: inline-block;
+	width: 18%;
+	padding: 1%;
 	float: left;
 }
 

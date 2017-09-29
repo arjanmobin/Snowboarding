@@ -52,10 +52,10 @@ li{
 
 .content{
 	padding-top: 115px;
-	background: #323231;
+	background-color: #323231;
 }
 
-#words{
+#double{
 	
 }
 
@@ -65,27 +65,40 @@ a{
 
 #pic>img{
 	width: 100%;
-}
-
-#pic>p{
-	position:absolute;
-	color: #970A08;
-	top:65%;
-	font-size: 250%;
-	left: 26%;
-	font-family: 'Sedgwick Ave Display', cursive;;
-}
-
-#content{
 	
 }
 
-div{
-	overflow: auto;
+#pic>p{
+	position:relative;
+	color:darkgray;
+	
+	top:20%;
+	font-size: 250%;
+	text-align: center;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+#double{
+	background: #BFD7EA;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
+
+
+section{
+	overflow:auto;
+}
+
+.two{
+	width: 48%;
+	float: left;	
 }
 
 p.two{
-	width: 48%;
-	float: left;
+	position: relative;
+	padding-top: 10%;
+	font-size: 30px;
 }
+
+
 

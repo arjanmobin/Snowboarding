@@ -7,15 +7,54 @@
 </head>
 
 <body>
-	<h1>Please Fill Out The Form Below:</h1>
+
+<header id="header">
+		<nav id="main_nav">
+			<a href="index.html"><img src="logo.png" id="logo"/></a>
+			<h1>Fill Out the Form Below</h1>
+			<ul class="header_links">
+				<li id="git"><a href="https://github.com/arjanmobin/Snowboarding">Github Repo</a></li>	
+				<li id="more"><a href="index.html">Home</a></li>	
+				<li id="videos"><a href="#">Videos</a></li>	
+				
+			</ul>
+		</nav>
+	</header>
+	
+	<section class="content">
 	
 	<form action="http://example.com" method="post">
 		<label for="firstName">First Name:</label>
 		<input type="text" name="first" id="first" placeholder="John">
 		
-		<label for="lastName">Lasr Name:</label>
+		<label for="lastName">Last Name:</label>
 		<input type="text" name="last" id="last" placeholder="Doe">
+		<br>
+		<br>
+		
+		<label for="gender">Select Gender:</label>
+		<label for="male">Male</label>
+		<input type="radio" name="sex" value="male">
+		<label for="female">Female</label>
+		<input type="radio" name="sex" value="female">
+		<br>
+		<br>
+		
+		<label for="location">Location:</label>
+		<select name="location" id="location">
+			<option value="usa">USA</option>
+			<option value="cal">California</option>
+			<option value="space">Space</option>
+		</select>
+		<br>
+		<br>
+		
+		<label for="password">Enter Your Password: </label>
+		<input type="password" name="password" id="password">
 	</form>
+	</section>
+	
+	
 	
 </body>
 </html>

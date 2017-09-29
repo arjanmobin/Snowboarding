@@ -70,13 +70,22 @@ a{
 #pic>p{
 	position:absolute;
 	color: #970A08;
-	top: 400px;
-	font-size: 60px;
+	top:65%;
+	font-size: 250%;
 	left: 26%;
 	font-family: 'Sedgwick Ave Display', cursive;;
 }
 
 #content{
 	
+}
+
+div{
+	overflow: auto;
+}
+
+p.two{
+	width: 48%;
+	float: left;
 }
 

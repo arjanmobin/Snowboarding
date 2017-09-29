@@ -100,5 +100,21 @@ p.two{
 	font-size: 30px;
 }
 
+footer{
+	text-align: center;
+}
+
+#gallery-text{
+	background: #760806;
+	text-align: center;
+	color:#99D4E3;
+}
+
+img.gallery{
+	overflow: auto;
+	width: 18.8%;
+	float: left;
+}
+
 
 
